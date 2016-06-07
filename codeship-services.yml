@@ -1,0 +1,5 @@
+app:
+  build:
+    image: quay.io/ghostmonitor/docker-selenium-node-phantomjs
+    dockerfile_path: Dockerfile
+    encrypted_dockercfg_path: dockercfg.encrypted

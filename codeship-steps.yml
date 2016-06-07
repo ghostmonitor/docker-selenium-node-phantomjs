@@ -1,0 +1,7 @@
+- service: app
+  tag: master
+  type: push
+  image_tag: latest
+  image_name: quay.io/ghostmonitor/docker-selenium-node-phantomjs
+  registry: quay.io
+  encrypted_dockercfg_path: dockercfg.encrypted
